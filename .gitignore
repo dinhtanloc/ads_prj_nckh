@@ -6,4 +6,8 @@ untitled_project
 
 .history
 
+*.png
+
+*.jpg
+
 *.json
