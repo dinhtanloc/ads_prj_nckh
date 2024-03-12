@@ -3,3 +3,5 @@ untitled_project
 .history
 
 __pycache__
+
+.ipynb_checkpoints
