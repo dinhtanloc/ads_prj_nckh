@@ -59,3 +59,15 @@ from sklearn.base import clone
 from kerastuner.tuners import RandomSearch
 from scipy.stats import uniform
 import numpy as np
+
+from keras.callbacks import EarlyStopping, ModelCheckpoint, LearningRateScheduler
+from keras.layers import Conv1D, MaxPooling1D, GlobalAveragePooling1D, GlobalMaxPooling1D, Dense, Flatten
+from keras.models import Model
+from keras.layers import Input
+import tensorflow as tf
+
+
+from tabnet_keras import TabNetRegressor, TabNetClassifier
+from tensorflow.keras.optimizers import Adam
+from keras.regularizers import l2
+
