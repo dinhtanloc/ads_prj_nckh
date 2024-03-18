@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-untitled_project
+.ipynb_checkpoints
 
-.history
+untitled_project
 
 __pycache__
 
-.ipynb_checkpoints
-=======
-.ipynb_checkpoints
-
-untitled_project
 
 *.xlsx
 
@@ -20,4 +14,3 @@ untitled_project
 *.jpg
 
 *.json
->>>>>>> 6289c4c8fdd37eb88e0541cae9011664947ac212
