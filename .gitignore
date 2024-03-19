@@ -1,7 +1,9 @@
-
 .ipynb_checkpoints
 
 untitled_project
+
+__pycache__
+
 
 *.xlsx
 
@@ -12,4 +14,3 @@ untitled_project
 *.jpg
 
 *.json
-
