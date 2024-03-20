@@ -1,0 +1,67 @@
+Standard_Label: basic
+(656, 42) (656, 2) (324, 42) (324, 2)
+Standard_Label: class_dict_weight
+(656, 42) (656, 2) (324, 42) (324, 2)
+Standard_Label: Oversampling
+(1001, 42) (1001, 2) (324, 42) (324, 2)
+Standard_Label: SMOTE
+(1002, 42) (1002, 2) (324, 42) (324, 2)
+Standard_Label: Undersampling
+(355, 42) (355, 2) (324, 42) (324, 2)
+MinMax_Label: basic
+(656, 42) (656, 2) (324, 42) (324, 2)
+MinMax_Label: class_dict_weight
+(656, 42) (656, 2) (324, 42) (324, 2)
+MinMax_Label: Oversampling
+(1001, 42) (1001, 2) (324, 42) (324, 2)
+MinMax_Label: SMOTE
+(1002, 42) (1002, 2) (324, 42) (324, 2)
+MinMax_Label: Undersampling
+(355, 42) (355, 2) (324, 42) (324, 2)
+10
+(1002, 42) (1002, 2) (324, 42) (324, 2)
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/1200
+10/11 [==========================>...] - ETA: 0s - loss: 0.7493 - accuracy: 0.5833 - f1_score: 0.5833
+
+10/11 [==========================>...] - ETA: 0s - loss: 0.7493 - accuracy: 0.5833 - f1_score: 0.5833Epoch 1/1200
+11/11 [==============================] - 37s 73ms/step - loss: 0.6223 - accuracy: 0.6517 - f1_score: 0.6512 - val_loss: 1.0487 - val_accuracy: 0.7222 - val_f1_score: 0.7179 - lr: 0.1000
+Epoch 2/1200
+11/11 [==============================] - 0s 14ms/step - loss: 0.5521 - accuracy: 0.7236 - f1_score: 0.7231 - val_loss: 0.9783 - val_accuracy: 0.7160 - val_f1_score: 0.7083 - lr: 0.1000
+Epoch 3/1200
+11/11 [==============================] - 0s 15ms/step - loss: 0.5030 - accuracy: 0.7695 - f1_score: 0.7654 - val_loss: 0.7772 - val_accuracy: 0.7037 - val_f1_score: 0.7066 - lr: 0.1000
+Epoch 4/1200
+ 6/11 [===============>..............] - ETA: 0s - loss: 0.4446 - accuracy: 0.8073 - f1_score: 0.8073
+ 6/11 [===============>..............] - ETA: 0s - loss: 0.4446 - accuracy: 0.8073 - f1_score: 0.8073WARNING:tensorflow:Skipping full serialization of Keras layer <tabnet_keras.models.TabNetClassifier object at 0x00000228DFF93250>, because it is not built.
+Epoch 1/1200
+11/11 [==============================] - 48s 67ms/step - loss: 0.8306 - accuracy: 0.5469 - f1_score: 0.5494 - val_loss: 1.7705 - val_accuracy: 0.6636 - val_f1_score: 0.6641 - lr: 0.1000
+Epoch 2/1200
+
+10/11 [==========================>...] - ETA: 0s - loss: 0.6075 - accuracy: 0.6760 - f1_score: 0.6760Epoch 1/10
+32/32 [==============================] - 46s 28ms/step - loss: 0.7136 - accuracy: 0.5768 - f1_score: 0.5730 - val_loss: 1.4940 - val_accuracy: 0.6173 - val_f1_score: 0.6278
+Epoch 2/10
+32/32 [==============================] - 0s 11ms/step - loss: 0.6183 - accuracy: 0.6667 - f1_score: 0.6674 - val_loss: 0.6967 - val_accuracy: 0.7377 - val_f1_score: 0.7567
+Epoch 3/10
+32/32 [==============================] - 0s 11ms/step - loss: 0.6182 - accuracy: 0.6647 - f1_score: 0.6455 - val_loss: 0.6889 - val_accuracy: 0.6852 - val_f1_score: 0.6885
+Epoch 4/10
+32/32 [==============================] - 1s 19ms/step - loss: 0.6168 - accuracy: 0.6657 - f1_score: 0.6540 - val_loss: 0.6136 - val_accuracy: 0.7130 - val_f1_score: 0.6960
+Epoch 5/10
+32/32 [==============================] - 1s 19ms/step - loss: 0.5784 - accuracy: 0.7086 - f1_score: 0.6988 - val_loss: 0.5900 - val_accuracy: 0.7469 - val_f1_score: 0.7683
+Epoch 6/10
+32/32 [==============================] - 1s 20ms/step - loss: 0.5625 - accuracy: 0.7355 - f1_score: 0.7330 - val_loss: 0.5832 - val_accuracy: 0.7901 - val_f1_score: 0.8068
+Epoch 7/10
+32/32 [==============================] - 1s 19ms/step - loss: 0.5355 - accuracy: 0.7725 - f1_score: 0.7623 - val_loss: 0.4879 - val_accuracy: 0.7870 - val_f1_score: 0.8040
+Epoch 8/10
+32/32 [==============================] - 1s 19ms/step - loss: 0.5530 - accuracy: 0.7655 - f1_score: 0.7598 - val_loss: 0.7234 - val_accuracy: 0.7623 - val_f1_score: 0.7812
+Epoch 9/10
+32/32 [==============================] - 1s 20ms/step - loss: 0.5640 - accuracy: 0.7685 - f1_score: 0.7627 - val_loss: 0.6573 - val_accuracy: 0.7840 - val_f1_score: 0.8011
+Epoch 10/10
+32/32 [==============================] - 1s 19ms/step - loss: 0.5507 - accuracy: 0.7565 - f1_score: 0.7553 - val_loss: 0.6014 - val_accuracy: 0.7623 - val_f1_score: 0.7812
+Epoch 1/1200
+11/11 [==============================] - 46s 73ms/step - loss: 0.7261 - accuracy: 0.6168 - f1_score: 0.6230 - val_loss: 0.6025 - val_accuracy: 0.6852 - val_f1_score: 0.6866 - lr: 0.1000
+Epoch 2/1200
+11/11 [==============================] - 0s 19ms/step - loss: 0.5380 - accuracy: 0.7565 - f1_score: 0.7616 - val_loss: 0.6082 - val_accuracy: 0.7315 - val_f1_score: 0.7257 - lr: 0.1000
+Epoch 3/1200
+11/11 [==============================] - 0s 19ms/step - loss: 0.5038 - accuracy: 0.7864 - f1_score: 0.7864 - val_loss: 0.6420 - val_accuracy: 0.7469 - val_f1_score: 0.7474 - lr: 0.1000
+Epoch 4/1200
+ 9/11 [=======================>......] - ETA: 0s - loss: 0.4822 - accuracy: 0.7963 - f1_score: 0.7963
