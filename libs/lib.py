@@ -15,6 +15,8 @@ import cufflinks as cf
 cf.go_offline()
 from plotly.offline import iplot
 import plotly.graph_objs as go
+import plotly.express as px
+import pandas as pd
 
 
 
