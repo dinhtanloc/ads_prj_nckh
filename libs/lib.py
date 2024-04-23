@@ -72,6 +72,7 @@ from keras.layers import Conv1D, MaxPooling1D, GlobalAveragePooling1D, GlobalMax
 from keras.models import Model
 from keras.layers import Input
 import tensorflow as tf
+from sklearn.model_selection import StratifiedKFold
 
 
 from tabnet_keras import TabNetRegressor, TabNetClassifier
