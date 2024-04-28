@@ -63,6 +63,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.base import clone
 # from mlxtend.classifier import StackingClassifier
+from sklearn.ensemble import StackingClassifier
+
 from kerastuner.tuners import RandomSearch
 from scipy.stats import uniform
 import numpy as np
