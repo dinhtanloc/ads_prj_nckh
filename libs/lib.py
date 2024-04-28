@@ -17,6 +17,9 @@ from plotly.offline import iplot
 import plotly.graph_objs as go
 import plotly.express as px
 import pandas as pd
+# Tính toán FPR và TPR từ decision function
+import matplotlib.pyplot as plt
+from sklearn.metrics import roc_curve, auc
 
 
 
