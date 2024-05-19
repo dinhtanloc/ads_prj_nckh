@@ -35,7 +35,7 @@ from sklearn.utils.class_weight import compute_class_weight
 from sklearn.preprocessing import LabelEncoder,MinMaxScaler,OneHotEncoder,StandardScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
-from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import Dropout,Concatenate
 from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping, ModelCheckpoint, LearningRateScheduler
 from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.feature_selection import RFE
